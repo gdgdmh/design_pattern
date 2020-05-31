@@ -13,5 +13,99 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="design_pattern">
+      <UniqueIdentifier>{a9d63ff1-7c18-4cb8-b6e3-8cbe91695297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhl">
+      <UniqueIdentifier>{7cbe0f2b-fa6b-4266-9515-f5317b2f17f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhl\exception">
+      <UniqueIdentifier>{259dcee9-6d29-4b54-be8f-1e4b01b6649d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhl\test">
+      <UniqueIdentifier>{94371437-aec1-4870-b96a-15bc66309f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhl\util">
+      <UniqueIdentifier>{5adf9c6c-869b-4043-b680-289b60043f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhl\util\output">
+      <UniqueIdentifier>{38d1a075-bf70-414e-ab56-6a6ec471e772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhl\util\string">
+      <UniqueIdentifier>{929dfc67-a614-4024-89aa-6005f3f554d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhl\util\template">
+      <UniqueIdentifier>{b485b019-9e77-480f-80fe-c50dd55782d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{df2d8dda-ab36-4033-8396-81cb368dc9a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mhl\exception\ArgumentException.cpp">
+      <Filter>mhl\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="mhl\exception\UnitTestException.cpp">
+      <Filter>mhl\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="mhl\test\UnitTestExecuteList.cpp">
+      <Filter>mhl\test</Filter>
+    </ClCompile>
+    <ClCompile Include="mhl\util\output\OutputConsole.cpp">
+      <Filter>mhl\util\output</Filter>
+    </ClCompile>
+    <ClCompile Include="test\TestCppNewFunctionTest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\TestExecuteMethod.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\TestSubject.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mhl\exception\ArgumentException.hpp">
+      <Filter>mhl\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="mhl\exception\UnitTestException.hpp">
+      <Filter>mhl\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="mhl\test\UnitTestBase.hpp">
+      <Filter>mhl\test</Filter>
+    </ClInclude>
+    <ClInclude Include="mhl\test\UnitTestExecuteList.hpp">
+      <Filter>mhl\test</Filter>
+    </ClInclude>
+    <ClInclude Include="mhl\util\output\IOutputConsole.hpp">
+      <Filter>mhl\util\output</Filter>
+    </ClInclude>
+    <ClInclude Include="mhl\util\output\OutputConsole.hpp">
+      <Filter>mhl\util\output</Filter>
+    </ClInclude>
+    <ClInclude Include="mhl\util\string\StdStringFormatter.hpp">
+      <Filter>mhl\util\string</Filter>
+    </ClInclude>
+    <ClInclude Include="mhl\util\template\IExecuteMethod.hpp">
+      <Filter>mhl\util\template</Filter>
+    </ClInclude>
+    <ClInclude Include="mhl\util\template\IObservable.hpp">
+      <Filter>mhl\util\template</Filter>
+    </ClInclude>
+    <ClInclude Include="mhl\util\template\Subject.hpp">
+      <Filter>mhl\util\template</Filter>
+    </ClInclude>
+    <ClInclude Include="test\TestCppNewFunctionTest.hpp">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\TestExecuteMethod.hpp">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\TestSubject.hpp">
+      <Filter>test</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
