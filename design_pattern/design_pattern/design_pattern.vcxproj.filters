@@ -40,6 +40,9 @@
     <Filter Include="test">
       <UniqueIdentifier>{df2d8dda-ab36-4033-8396-81cb368dc9a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="design_pattern\command">
+      <UniqueIdentifier>{5adf1990-e466-4eb3-b52e-4263bb6b39fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mhl\exception\ArgumentException.cpp">
@@ -106,6 +109,18 @@
     </ClInclude>
     <ClInclude Include="test\TestSubject.hpp">
       <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="design_pattern\command\ICommandable.hpp">
+      <Filter>design_pattern\command</Filter>
+    </ClInclude>
+    <ClInclude Include="design_pattern\GameObject.hpp">
+      <Filter>design_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="design_pattern\command\MoveUnitCommand.hpp">
+      <Filter>design_pattern\command</Filter>
+    </ClInclude>
+    <ClInclude Include="design_pattern\command\HandleInput.hpp">
+      <Filter>design_pattern\command</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

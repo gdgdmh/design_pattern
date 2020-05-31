@@ -6,6 +6,8 @@
 #include "test/TestCppNewFunctionTest.hpp"
 #include "test/TestExecuteMethod.hpp"
 #include "test/TestSubject.hpp"
+#include "design_pattern/command/HandleInput.hpp"
+#include "design_pattern/command/MoveUnitCommand.hpp"
 
 int main() {
   mhl::UnitTestExecuteList list;
@@ -16,5 +18,8 @@ int main() {
   if (!list.Execute()) {
     return 1;
   }
+  // ƒrƒ‹ƒh‚ğ’Ê‚·‚½‚ß‚È‚Ì‚ÅÀ“®ì‚Í‚µ‚È‚¢
+  design_pattern::HandleInput handle_input;
+  handle_input.InputHandle();
   return 0;
 }
